@@ -6,3 +6,7 @@ Tools created for solving optimization problems
 
 ## Part 2
 
+
+# Setup
+VSCode extensions:
+* janisdd.vscode-edit-csv
