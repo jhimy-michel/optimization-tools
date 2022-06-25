@@ -4,11 +4,13 @@
 
 from fractions import Fraction
 
+from pyrsistent import v
 
-weigths = [10, 7, 5, 4]
-values = [25, 21, 30, 8]
+items = ['A','B','C','D']
+weigths = [8, 24, 19, 16]
+values = [11, 38, 57, 64]
 
-maxCapacity = 20
+maxCapacity = 50
 
 utilityCoefficient = []
 
@@ -20,6 +22,12 @@ for x in utilityCoefficient:
     print(Fraction(x)) """
 
 print("Utility coefficients", utilityCoefficient)
+
+zipped_items = zip(utilityCoefficient, items)
+items_sorted = sorted(zipped_items, reverse=True)
+items_new_list = [element for _, element in items_sorted]
+
+print("Items =>", items_new_list)
 
 zipped_values = zip(utilityCoefficient, values)
 values_sorted = sorted(zipped_values, reverse=True)
