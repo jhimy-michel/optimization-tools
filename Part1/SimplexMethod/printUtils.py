@@ -5,10 +5,10 @@ def print_matrix_nicely(array):
     data = ''
     for line in array:        
         if len(line) == 1:
-            data += ' %.2f &'%line + r' \\'
+            data += ' %.3f &'%line + r' \\'
             continue
         for element in line:
-            data += ' %.2f &'%element
+            data += ' %.3f &'%element
         data += r' \\'
     display(Math('\\begin{bmatrix} \n%s\end{bmatrix}'%data))
 
@@ -17,9 +17,9 @@ def getLatex(array):
     data = ''
     for line in array:        
         if len(line) == 1:
-            data += ' %.2f &'%line + r' \\'
+            data += ' %.3f &'%line + r' \\'
             continue
         for element in line:
-            data += ' %.2f &'%element
+            data += ' %.3f &'%element
         data += r' \\'
     return data

@@ -4,11 +4,11 @@
 
 from fractions import Fraction
 
-from pyrsistent import v
+#from pyrsistent import v
 
-items = ['A','B','C','D']
+items = ['A', 'B', 'C', 'D']
+values = [11, 48, 57, 64]
 weigths = [8, 24, 19, 16]
-values = [11, 38, 57, 64]
 
 maxCapacity = 50
 
