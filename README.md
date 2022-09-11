@@ -1,5 +1,6 @@
 # OPTIMIZATION TOOLS
-Tools created for solving optimization problems
+This project is a collection of python Jupiter scripts created for the lecture Optimization during my master studies at ZHAW.
+The project contains a series of Jupyter scripts that solve specific problems.
 
 
 ## Part 1
@@ -7,6 +8,6 @@ Tools created for solving optimization problems
 ## Part 2
 
 
-# Setup
-VSCode extensions:
+## VS-Code extensions (recommended)
+
 * janisdd.vscode-edit-csv
